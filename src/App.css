@@ -1,0 +1,39 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+.app {
+  background-color: black;
+}
+
+.navbar {
+  background-color: #0067B1;
+}
+
+.navbar-logo {
+  width: 50px;
+  height: 44px;
+}
+
+.navbar-container {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: center;
+  max-width: 1650px;
+}
+/* 
+.navbar-brand {
+
+} */
+
+.footer-container {
+  position: static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #0067B1;
+  padding: 20px 0;
+  text-align: center;
+}
