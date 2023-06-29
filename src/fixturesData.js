@@ -2,6 +2,8 @@ const caliClasicoVenue = 'Stanford Stadium';
 const homeStadium = 'PayPal Park';
 const quakes = 'San Jose Earthquakes';
 
+const today = new Date(); //gets todays date.
+
 
 const fixtures = [{
     home: "Houston Dynamo",
@@ -113,6 +115,10 @@ const fixtures = [{
     date: "10/21/2023"
 
 },
-];
+].map(fixture => {
+    const fixtureDate = new Date(fixture.date);
+    fixture.isPast = fixtureDate < today;
+    return fixture;
+});
 
 export default fixtures;
