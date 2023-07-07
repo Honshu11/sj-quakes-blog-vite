@@ -1,7 +1,7 @@
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 import Club from './Components/Club';
-import Schedule from './Components/Schedule';
+import FixtureTable from './Components/FixtureTable';
 import './App.css';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div className='app'>
         <Navbar />
         <Club />
-        <Schedule />
+        <FixtureTable />
         <Footer />
     </div>
   )
