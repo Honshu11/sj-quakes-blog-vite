@@ -23,7 +23,7 @@ function FixtureTable() {
                         <td>{fixture.away}</td>
                         <td>{fixture.venue}</td>
                         <td>{fixture.date}</td>
-                        <td>{fixture.time}</td>
+                        <td>{fixture.time} PST</td>
                     </tr>
                 ))}   
             </tbody>
