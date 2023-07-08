@@ -2,7 +2,7 @@ import fixtures from '../fixturesData'; //imports fixtureData array from js file
 
 function FixtureTable() {
   return (
-    <div className="container">
+    <div className="container" id='fixture-table'>
         <hr className='text-light'/>
         <h2 className='text-center text-light fw-bold'>Quakes Schedule 2023</h2>
         <table className="match-table table table-hover table-dark text-center text-light">

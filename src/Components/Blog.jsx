@@ -1,7 +1,9 @@
 
 function Blog() {
   return (
-    <div>Blog</div>
+    <div className="container" id="blog">
+
+    </div>
   )
 }
 

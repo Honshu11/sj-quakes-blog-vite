@@ -1,7 +1,7 @@
 
 function Club() {
   return (
-    <div>
+    <div id="club">
         <section className="text-white">
             <div className="container py-5">
                 <h2 className="display-4 text-center text-decoration-underline fw-bolder">The Earthquakes Club History</h2>
@@ -59,7 +59,7 @@ function Club() {
                         <p>In recent years, the Earthquakes have experience a resurgence. They have made significant improvements both on and off the field focusing on homegrown talent from the San Jose Academy. Building and fostering a winning mentality regardless of the financial backing of the ownership. The club's commitment to their BayArea community and the loyal fan base has been instrumental in their recent success.</p>
                     </div>
                     <div className="col-lg-6">
-                        <img src="./Images/sj-tifo.jpeg" alt="Earthquake fans holding soccer scarves up" className="img-fluid rounded" />
+                        <img src="./Images/sj-tifo-red.jpeg" alt="Earthquake fans holding soccer scarves up" className="img-fluid rounded"/>
                     </div>
                 </div>
             </div>
